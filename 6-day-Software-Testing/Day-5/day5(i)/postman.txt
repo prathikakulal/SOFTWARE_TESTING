@@ -1,0 +1,31 @@
+{
+    "name":"figo",
+    "brand":"Ford",
+    "price_range":"2-3lacs",
+    "car_type":"hatchback"
+}
+
+This is a car object with details like name, brand, price range, and type. You might send this as a POST request body in Postman.
+
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+
+🔹 Test 1: Checks if the response status code is 200 (success).
+
+
+pm.test("Body matches string", function () {
+    pm.expect(pm.response.text()).to.include("Tesla");
+});
+
+🔹 Test 2: Checks if the response body contains the word "Tesla".
+
+
+📝 In Simple Terms:
+We are sending car data (Ford Figo) and verifying:
+
+The server responded successfully (200 OK).
+
+The response mentions “Tesla” somewhere in the text.
