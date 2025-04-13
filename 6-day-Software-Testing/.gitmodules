@@ -1,3 +1,3 @@
-[submodule "Day-6/pytest"]
-	path = Day-6/pytest
-	url = https://github.com/aaronfernandes21/selenium-beginners_1
+[submodule "Day-6/test"]
+	path = Day-6/test
+	url = https://github.com/prathikakulal/selenium-beginners
